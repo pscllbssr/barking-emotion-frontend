@@ -5,7 +5,7 @@ import {EmotionChart} from "./EmotionChart";
 
 //const mimeType = "audio/webm"
 const mimeType = "audio/wav"
-const baseURL = "http://localhost:5000"
+const baseURL = "https://pscl.pythonanywhere.com"
 
 export const AudioRecorder = () => {
     const [permission, setPermission] = useState(false);
